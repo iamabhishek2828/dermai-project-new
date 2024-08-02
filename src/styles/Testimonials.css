@@ -1,0 +1,20 @@
+.testimonials {
+  padding: 2rem;
+  text-align: center;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial {
+  margin: 1rem;
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+
+.testimonial img {
+  max-width: 100px;
+}

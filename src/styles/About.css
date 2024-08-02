@@ -1,0 +1,128 @@
+/* src/styles/About.css */
+
+.about-container {
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background-color: #f0f4f8;
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin: 0 0 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  .mission-section,
+  .features-section,
+  .team-section,
+  .contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 60px; /* Add bottom margin to prevent overlap with footer */
+  }
+  
+  .mission-section h2,
+  .features-section h2,
+  .team-section h2,
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .mission-section p,
+  .features-section ul,
+  .team-section p,
+  .contact-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .features-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features-section li {
+    margin: 10px 0;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .team-member {
+    width: 200px;
+    text-align: center;
+  }
+  
+  .team-member img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .contact-section a {
+    color: #ff7e5f;
+    text-decoration: none;
+  }
+  
+  .contact-section a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Ensure footer does not overlap with content */
+  footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
+  .footer-content a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
